@@ -1,3 +1,4 @@
+// src/app/page.tsx
 'use client';
 
 import React, { useState } from 'react';
@@ -8,6 +9,8 @@ import FeaturesSection from '@/components/ui/FeaturesSection';
 import TestimonialsSection from '@/components/ui/TestimonialsSection';
 import NewsletterSignup from '@/components/ui/NewsletterSignup';
 import FaqSection from '@/components/ui/FaqSection';
+import Header from '@/components/ui/Header';
+import Footer from '@/components/ui/Footer';
 import { ArrowLeft } from 'lucide-react';
 
 // Calculator type definition
@@ -85,12 +88,19 @@ export default function FinanceCalculators() {
     return calculators.find(calc => calc.id === activeCalculator) || calculators[0];
   };
 
+  const handleNavigate = (calculatorId: string | null) => {
+    setActiveCalculator(calculatorId);
+  };
+
   const handleGetStarted = () => {
     setActiveCalculator('mortgage-prepayment');
   };
 
   return (
     <main className="min-h-screen bg-gray-100">
+      {/* Custom Header and Footer with navigation */}
+      <Header onNavigate={handleNavigate} />
+      
       {!activeCalculator ? (
         // Landing page with calculator selection
         <>
@@ -177,6 +187,8 @@ export default function FinanceCalculators() {
           </div>
         </div>
       )}
+      
+      <Footer onNavigate={handleNavigate} />
     </main>
   );
 }
