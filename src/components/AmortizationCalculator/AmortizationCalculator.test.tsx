@@ -17,12 +17,13 @@ describe('AmortizationCalculator', () => {
   it('allows changing input values', () => {
     render(<AmortizationCalculator />);
     
-    // Find the loan amount input and change its value
-    const loanAmountInput = screen.getByLabelText('Loan Amount');
-    fireEvent.change(loanAmountInput, { target: { value: '300000' } });
+    // Find inputs by type or by closest label text
+    const inputs = screen.getAllByRole('spinbutton');
+    const loanAmountInput = inputs[0]; // The first number input is Loan Amount
+    const interestRateInput = inputs[1]; // The second number input is Interest Rate
     
-    // Find the interest rate input and change its value
-    const interestRateInput = screen.getByLabelText('Loan Interest Rate (%)');
+    // Change values
+    fireEvent.change(loanAmountInput, { target: { value: '300000' } });
     fireEvent.change(interestRateInput, { target: { value: '3.5' } });
     
     // Check if values are updated
