@@ -9,7 +9,7 @@ const FeaturesSection: React.FC = () => {
         </svg>
       ),
       title: 'Accurate Calculations',
-      description: 'Our calculators use precise financial models to give you accurate projections and comparisons.'
+      description: 'Our calculators use precise financial models to give you accurate projections on your path to FIRE.'
     },
     {
       icon: (
@@ -20,7 +20,7 @@ const FeaturesSection: React.FC = () => {
         </svg>
       ),
       title: 'User-Friendly Interface',
-      description: 'Simple, intuitive design that makes complex financial planning accessible to everyone.'
+      description: 'Simple, intuitive design that makes complex FIRE planning accessible to everyone.'
     },
     {
       icon: (
@@ -42,7 +42,7 @@ const FeaturesSection: React.FC = () => {
         </svg>
       ),
       title: 'Detailed Reports',
-      description: 'Get comprehensive reports with visualizations to help you understand your financial options.'
+      description: 'Get comprehensive reports with visualizations to help you understand your FIRE options.'
     },
     {
       icon: (
@@ -53,7 +53,7 @@ const FeaturesSection: React.FC = () => {
         </svg>
       ),
       title: 'Financial Education',
-      description: 'Learn about financial concepts with explanations and tips integrated into each calculator.'
+      description: 'Learn about FIRE concepts with explanations and tips integrated into each calculator.'
     },
     {
       icon: (
@@ -62,7 +62,7 @@ const FeaturesSection: React.FC = () => {
         </svg>
       ),
       title: 'Compare Scenarios',
-      description: 'Easily compare different financial scenarios side-by-side to make optimal decisions.'
+      description: 'Easily compare different financial scenarios side-by-side to optimize your FIRE journey.'
     }
   ];
 
@@ -70,9 +70,9 @@ const FeaturesSection: React.FC = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Why Choose Our Financial Calculators</h2>
+          <h2 className="text-3xl font-bold mb-4">Why Choose FIREWITHME</h2>
           <p className="text-lg text-gray-600">
-            We've designed our calculators to help you make better financial decisions through 
+            We've designed our calculators to help you achieve Financial Independence and Retire Early through 
             accurate information, clear comparisons, and actionable insights.
           </p>
         </div>

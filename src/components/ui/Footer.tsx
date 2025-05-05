@@ -20,9 +20,9 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">FinCalc</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">FIREWITHME</h3>
             <p className="text-sm">
-              Powerful financial calculators to help you make smarter decisions with your money.
+              Tools and calculators to help you achieve Financial Independence and Retire Early.
             </p>
           </div>
           
@@ -69,7 +69,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <ul className="space-y-2 text-sm">
               <li>
                 <button className="text-gray-300 hover:text-white transition-colors">
-                  Financial Planning Guide
+                  FIRE Planning Guide
                 </button>
               </li>
               <li>
@@ -93,8 +93,8 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div>
             <h4 className="text-white font-medium mb-4">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <li>Email: info@fincalc.com</li>
-              <li>Support: support@fincalc.com</li>
+              <li>Email: info@firewithme.com</li>
+              <li>Support: support@firewithme.com</li>
             </ul>
             
             <div className="flex space-x-4 mt-4">
@@ -118,7 +118,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-6 text-sm text-center">
-          <p>&copy; {currentYear} FinCalc. All rights reserved.</p>
+          <p>&copy; {currentYear} FIREWITHME. All rights reserved.</p>
           <div className="mt-2 space-x-4">
             <button className="text-gray-300 hover:text-white transition-colors">
               Privacy Policy

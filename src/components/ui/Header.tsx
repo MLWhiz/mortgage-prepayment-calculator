@@ -8,7 +8,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ 
-  title = "FinCalc",
+  title = "FIREWITHME",
   onNavigate 
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -45,7 +45,7 @@ const Header: React.FC<HeaderProps> = ({
           </div>
           <div>
             <h1 className="font-bold text-xl text-gray-900">{title}</h1>
-            <p className="text-xs text-gray-500">Smart tools for financial planning</p>
+            <p className="text-xs text-gray-500">Financial Independence, Retire Early</p>
           </div>
         </div>
         

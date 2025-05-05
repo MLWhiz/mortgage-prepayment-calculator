@@ -56,15 +56,15 @@ export default function FinanceCalculators() {
     },
     {
       id: 'retirement-planner',
-      title: 'Retirement Planning Calculator',
-      description: 'Plan your retirement savings and estimate your future income.',
+      title: 'FIRE Date Calculator',
+      description: 'Plan your retirement savings and estimate when you can achieve FIRE.',
       icon: (
         <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
       ),
-      component: <div className="p-6 text-center">Retirement Planning Calculator coming soon</div>,
+      component: <div className="p-6 text-center">FIRE Date Calculator coming soon</div>,
       comingSoon: true
     },
     {
@@ -108,7 +108,7 @@ export default function FinanceCalculators() {
           
           <section className="py-16">
             <div className="container mx-auto px-4">
-              <h2 className="text-3xl font-bold mb-8 text-center">Our Financial Calculators</h2>
+              <h2 className="text-3xl font-bold mb-8 text-center">Our FIRE Calculators</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
                 {calculators.map((calculator) => (
                   <CalculatorCard
@@ -133,9 +133,9 @@ export default function FinanceCalculators() {
           <section className="py-16 bg-white">
             <div className="container mx-auto px-4 text-center">
               <div className="max-w-3xl mx-auto">
-                <h2 className="text-3xl font-bold mb-4">Ready to Make Smarter Financial Decisions?</h2>
+                <h2 className="text-3xl font-bold mb-4">Ready to Start Your FIRE Journey?</h2>
                 <p className="text-lg text-gray-600 mb-8">
-                  Start with our most popular calculator and see how small changes can make a big impact on your financial future.
+                  Start with our most popular calculator and see how small changes can bring you closer to financial independence.
                 </p>
                 <button 
                   onClick={handleGetStarted}
@@ -180,7 +180,7 @@ export default function FinanceCalculators() {
                   <li>Enter your loan details (amount, interest rate, term)</li>
                   <li>Specify how much extra you could pay each period</li>
                   <li>Set your expected investment return rate</li>
-                  <li>Review the comparison results to see which strategy works better for your situation</li>
+                  <li>Review the comparison results to see which strategy works better for your FIRE journey</li>
                 </ol>
               </div>
             </div>

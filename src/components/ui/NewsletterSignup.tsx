@@ -20,9 +20,9 @@ const NewsletterSignup: React.FC = () => {
     <section className="bg-blue-600 py-12 text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-3">Financial Tips & Updates</h2>
+          <h2 className="text-2xl font-bold mb-3">FIRE Tips & Updates</h2>
           <p className="text-blue-100 mb-6">
-            Subscribe to our newsletter for financial tips, calculator updates, and exclusive content.
+            Subscribe to our newsletter for financial independence tips, calculator updates, and exclusive content.
           </p>
           
           {submitted ? (
@@ -41,7 +41,7 @@ const NewsletterSignup: React.FC = () => {
                 />
               </svg>
               <h3 className="text-xl font-medium mb-2">Thanks for subscribing!</h3>
-              <p>You're all set to receive our financial tips and calculator updates.</p>
+              <p>You're all set to receive our FIRE tips and calculator updates.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">

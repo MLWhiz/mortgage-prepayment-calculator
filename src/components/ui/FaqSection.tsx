@@ -19,7 +19,7 @@ const FaqSection: React.FC = () => {
     },
     {
       question: "Should I pay off my mortgage early or invest?",
-      answer: "This depends on many factors including your interest rate, potential investment returns, risk tolerance, and tax situation. Our Mortgage Prepayment Calculator helps you compare both scenarios with your specific numbers so you can make an informed decision."
+      answer: "This depends on many factors including your interest rate, potential investment returns, risk tolerance, and tax situation. Our Mortgage Prepayment Calculator helps you compare both scenarios with your specific numbers so you can make an informed decision on your path to FIRE."
     },
     {
       question: "How often are the calculators updated?",

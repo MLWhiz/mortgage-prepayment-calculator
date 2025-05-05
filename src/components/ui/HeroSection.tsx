@@ -17,10 +17,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Smart Financial <span className="text-yellow-300">Decisions</span> Start Here
+              Your <span className="text-yellow-300">FIRE</span> Journey Starts Here
             </h1>
             <p className="text-xl opacity-90 mb-8">
-              Our suite of financial calculators helps you plan for the future with confidence.
+              Our suite of financial calculators helps you plan for Financial Independence and Retire Early with confidence.
               Compare scenarios, visualize outcomes, and make informed choices.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -42,7 +42,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted }) => {
               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 shadow-xl">
                 <div className="flex justify-between items-center mb-6">
                   <div>
-                    <div className="text-2xl font-bold mb-1">Financial Summary</div>
+                    <div className="text-2xl font-bold mb-1">FIRE Summary</div>
                     <div className="text-sm opacity-80">Compare investment strategies</div>
                   </div>
                   <div className="flex space-x-2">

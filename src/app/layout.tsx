@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "FinCalc - Financial Calculators",
-  description: "Smart financial calculators to help you plan your future",
+  title: "FIREWITHME - Financial Independence Calculator",
+  description: "Tools to help you achieve Financial Independence and Retire Early (FIRE)",
 };
 
 export default function RootLayout({
